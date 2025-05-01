@@ -30,11 +30,9 @@ The assignment goals:
 - Compare performance (time & memory) between both versions  
 - Deliver code, video demo, and documentation.
 
-Q1: How can you efficiently sort customer transactions by date and display the total number of 
-transactions in both datasets? 
-Q2: What percentage of purchases in the “Electronics” category were made using Credit Card 
-payments?
-Q3: Which words are most frequently used in product reviews rated 1-star? 
+## Q1: How can you efficiently sort customer transactions by date and display the total number of transactions in both datasets? 
+## Q2: What percentage of purchases in the “Electronics” category were made using Credit Card payments?
+## Q3: Which words are most frequently used in product reviews rated 1-star? 
 ---
 
 ## Project Structure
