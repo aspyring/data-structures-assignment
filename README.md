@@ -141,7 +141,7 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ## Contact
 
-**Your Name** – aspyringmc@gmail.com
+email: aspyringmc@gmail.com
 Project Link: https://github.com/aspyring/data-structures-assignment  
 
 ---
