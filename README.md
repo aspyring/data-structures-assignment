@@ -1,4 +1,4 @@
-# Lab 1: Array vs Linked-List Data Structures
+# Array vs Linked-List Data Structures
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/aspyring/data-structures-assignment) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
@@ -24,12 +24,17 @@
 
 ## Introduction
 
-Briefly describe the assignment goals:
+The assignment goals:
 
 - Implement Q1–Q3 using an array and your own linked-list classes  
 - Compare performance (time & memory) between both versions  
-- Deliver code, video demo, and write-up  
+- Deliver code, video demo, and documentation.
 
+Q1: How can you efficiently sort customer transactions by date and display the total number of 
+transactions in both datasets? 
+Q2: What percentage of purchases in the “Electronics” category were made using Credit Card 
+payments?
+Q3: Which words are most frequently used in product reviews rated 1-star? 
 ---
 
 ## Project Structure
