@@ -9,16 +9,12 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Getting Started](#getting-started)
+2. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-4. [Usage](#usage)
-5. [Benchmark Results](#benchmark-results)
-6. [Documentation](#documentation)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Contact](#contact)
 
 ---
 
@@ -38,32 +34,14 @@ The assignment goals:
 
 ---
 
-## Project Structure
 
-```
-data_structures_assignment/
-├── common/
-│   ├── load_data.hpp
-│   ├── load_data.cpp
-│   ├── clean_data.hpp
-│   └── clean_data.cpp
-├── array_version/
-│   ├── array_data_structure.hpp  
-│   └── main.cpp
-└── linked_list_version/
-    ├── linked_list.hpp             
-    └── main.cpp
-
-```
-
----
 
 ## Getting Started
 
 ### Prerequisites
 
 - C++ compiler (e.g. `g++` ≥ 7.0)
-- `make` (optional)
+- `CMake` 
 - Git
 
 ### Installation
@@ -97,22 +75,6 @@ g++ main.cpp -o linkedlist_app
 ```bash
 ./linkedlist_app ../data/transactions.csv ../data/reviews.csv
 ```
-
----
-
-## Benchmark Results
-
-Detailed time & memory comparisons are in [benchmarks/results.md](benchmarks/results.md).
-
----
-
-## Documentation
-
-See the `docs/` folder for:
-
-- Input/output screenshots
-- Complexity analysis
-- Workload matrix
 
 ---
 
