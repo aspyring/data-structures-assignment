@@ -8,17 +8,17 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)  
-2. [Project Structure](#project-structure)  
-3. [Getting Started](#getting-started)  
-   - [Prerequisites](#prerequisites)  
-   - [Installation](#installation)  
-4. [Usage](#usage)  
-5. [Benchmark Results](#benchmark-results)  
-6. [Documentation](#documentation)  
-7. [Contributing](#contributing)  
-8. [License](#license)  
-9. [Contact](#contact)  
+1. [Introduction](#introduction)
+2. [Project Structure](#project-structure)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+4. [Usage](#usage)
+5. [Benchmark Results](#benchmark-results)
+6. [Documentation](#documentation)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
 ---
 
@@ -26,35 +26,34 @@
 
 The assignment goals:
 
-- Implement Q1–Q3 using an array and your own linked-list classes  
-- Compare performance (time & memory) between both versions  
+- Implement Q1–Q3 using an array and your own linked-list classes
+- Compare performance (time & memory) between both versions
 - Deliver code, video demo, and documentation.
 
-## Q1: How can you efficiently sort customer transactions by date and display the total number of transactions in both datasets? 
+## Q1: How can you efficiently sort customer transactions by date and display the total number of transactions in both datasets?
+
 ## Q2: What percentage of purchases in the “Electronics” category were made using Credit Card payments?
-## Q3: Which words are most frequently used in product reviews rated 1-star? 
+
+## Q3: Which words are most frequently used in product reviews rated 1-star?
+
 ---
 
 ## Project Structure
 
 ```
-data-structures-assignment/
-├── array_version/           # Array-based implementation
-│   ├── main.cpp
-│   ├── array_utils.hpp
-│   └── …
-├── linkedlist_version/      # Linked-list implementation
-│   ├── main.cpp
-│   ├── linkedlist.hpp
-│   └── …
-├── data/
-│   ├── transactions.csv
-│   └── reviews.csv
-├── docs/                    # Screenshots & diagrams
-├── benchmarks/              # Benchmark results
-│   └── results.md
-├── LICENSE
-└── README.md
+data_structures_assignment/
+├── common/
+│   ├── load_data.hpp
+│   ├── load_data.cpp
+│   ├── clean_data.hpp
+│   └── clean_data.cpp
+├── array_version/
+│   ├── array_data_structure.hpp  
+│   └── main.cpp
+└── linked_list_version/
+    ├── linked_list.hpp             
+    └── main.cpp
+
 ```
 
 ---
@@ -63,9 +62,9 @@ data-structures-assignment/
 
 ### Prerequisites
 
-- C++ compiler (e.g. `g++` ≥ 7.0)  
-- `make` (optional)  
-- Git  
+- C++ compiler (e.g. `g++` ≥ 7.0)
+- `make` (optional)
+- Git
 
 ### Installation
 
@@ -81,7 +80,7 @@ g++ main.cpp -o array_app
 # Build linked-list version
 cd ../linkedlist_version
 g++ main.cpp -o linkedlist_app
-```  
+```
 
 ---
 
@@ -111,28 +110,28 @@ Detailed time & memory comparisons are in [benchmarks/results.md](benchmarks/res
 
 See the `docs/` folder for:
 
-- Input/output screenshots  
-- Complexity analysis  
-- Workload matrix  
+- Input/output screenshots
+- Complexity analysis
+- Workload matrix
 
 ---
 
 ## Contributing
 
-1. Fork this repo  
-2. Create your feature branch:  
+1. Fork this repo
+2. Create your feature branch:
    ```bash
    git checkout -b feature/YourFeature
-   ```  
-3. Commit your changes:  
+   ```
+3. Commit your changes:
    ```bash
    git commit -m "Add YourFeature"
-   ```  
-4. Push to the branch:  
+   ```
+4. Push to the branch:
    ```bash
    git push origin feature/YourFeature
-   ```  
-5. Open a Pull Request  
+   ```
+5. Open a Pull Request
 
 ---
 
@@ -145,7 +144,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 ## Contact
 
 email: aspyringmc@gmail.com
-Project Link: https://github.com/aspyring/data-structures-assignment  
+Project Link: https://github.com/aspyring/data-structures-assignment
 
 ---
-
